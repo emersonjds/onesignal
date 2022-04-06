@@ -1,13 +1,18 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { SafeAreaView, Text, View } from 'react-native';
 
 const App: React.FC = () => {
     return (
-        <View>
-            <Text>
-                Emerson
-            </Text>
-        </View>
+        <SafeAreaView>
+            <View style={{
+                padding: 20
+            }}>
+                <Text>
+                    Emerson
+                </Text>
+            </View>
+        </SafeAreaView>
+
     )
 }
 
